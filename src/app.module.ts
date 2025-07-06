@@ -6,7 +6,7 @@ import { ChatModule } from './chat/chat.module';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, 'public'),  // <-- ajustado
+     rootPath: join(__dirname, '../src/public'),
     }),
     ChatModule,
   ],
